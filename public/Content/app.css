@@ -1,1 +1,18 @@
 /* custom css goes here */
+
+.intro {
+    margin-bottom: 50px;
+    margin-top: 60px;
+    font-size: large;
+    margin-right: 300px;
+}
+
+.mission {
+    font-size: large;
+    margin-top: 120px;
+    margin-left: 300px;
+}
+
+.container {
+    margin-top: 50px;
+}
