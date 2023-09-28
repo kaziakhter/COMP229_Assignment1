@@ -1,4 +1,9 @@
 // IIFE -- Immediately Invoked Function Expression
+// Scripts file for Frontend
+/* Kazi Ayesha Akhter
+      301264645
+      29/09/2023 */
+      
 (function(){
 
     function Start()
