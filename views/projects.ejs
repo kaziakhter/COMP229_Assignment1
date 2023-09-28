@@ -1,0 +1,87 @@
+<!--Seperate View for Projects Page-->
+<!-- Kazi Ayesha Akhter
+      301264645
+      29/09/2023 -->
+
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4" style="text-align: center;">Welcome to my <%= title %> page</h1>
+    </div>
+
+    <!-- Project Cards -->
+  <div class="row" style="margin-bottom: 100px;">
+    <!-- Project 1 -->
+    <div class="col-lg-4 mb-4">
+      <div class="card">
+        <div style="padding: 10px;">
+        <img src="/img/image1.png" class="card-img-top" alt="Project 1 Image">
+        </div>
+        <div class="card-body" style="height: 470px; overflow-y: auto;"><br>
+          <h5 class="card-title">Project 1</h5>
+          <p class="card-text" >
+            <h6>My role: </h6> Java developer <br> <br>
+            <h6>Outcome: </h6>
+            <p class="outcome"> The Java application offers a user-friendly form where students 
+              can enter their personal details and can select their field of interest; either Computer Science 
+              or Business and also choose from a list of relevant courses. This program facilitates efficient 
+              data capture and course selection for students, enhancing the overall user experience.</p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="col-lg-4 mb-4">
+      <div class="card">
+        <div style="padding: 10px; padding-bottom: 30px;">
+        <img src="/img/image2.png" class="card-img-top" alt="Project 2 Image" style="height: 230px;">
+        </div>
+        <div class="card-body" style="height: 470px; overflow-y: auto;"><br>
+          <h5 class="card-title">Project 2</h5>
+          <p class="card-text">
+            <h6>My role:</h6> Web developer<br><br>
+            <h6>Outcome: </h6> 
+            <p class="outcome"> The web page presents the real estate agent's profile,
+               including a brief description of his work, mission statement, and notable awards.
+               It delivers an aesthetically pleasing and functional platform 
+               for potential clients to explore the agent's offerings and initiate contact for 
+               real estate inquiries.</p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="col-lg-4 mb-4">
+      <div class="card">
+        <div>
+        <img src="/img/image3.png" class="card-img-top" alt="Project 3 Image" style="height: 270px;">
+        </div>
+        <div class="card-body" style="height: 470px; overflow-y: auto;"><br>
+          <h5 class="card-title">Project 3</h5>
+          <p class="card-text">
+            <h6>My role:</h6> Web developer<br><br>
+            <h6>Outcome: </h6> 
+            <p class="outcome">The web page boasts an aesthetically pleasing interface, showcasing
+             a collection of abstract images in an interactive slideshow format. Viewers can seamlessly
+              navigate through the images, appreciating the artistic content. A key feature allows users
+               to select and add their preferred images to a favorite list, enhancing their overall 
+               browsing experience and enabling them to curate a personal collection. 
+            </p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
