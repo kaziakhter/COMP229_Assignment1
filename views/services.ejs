@@ -1,0 +1,57 @@
+<!--Seperate View for Services Page-->
+<!-- Kazi Ayesha Akhter
+      301264645
+      29/09/2023 -->
+
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4" style="text-align: center;">Welcome to my <%= title %> page</h1>     
+    </div>
+
+    <!-- Service Cards -->
+  <div class="row">
+    <!-- General Programming -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <div class="card-body">
+          <i class="fas fa-code fa-3x"></i>
+          <h5 class="card-title">General Programming</h5>
+          <p class="card-text">Expertise in general programming languages like C#, Java, and JavaScript.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Web Development -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <div class="card-body">
+          <i class="fab fa-html5 fa-3x"></i>
+          <h5 class="card-title">Web Development</h5>
+          <p class="card-text">Proficient in HTML, CSS, and modern web development technologies.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Database -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center">
+        <div class="card-body">
+          <i class="fas fa-database fa-3x"></i>
+          <h5 class="card-title">Database</h5>
+          <p class="card-text">Experience with database management and design.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
