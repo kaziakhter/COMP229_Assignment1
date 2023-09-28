@@ -1,16 +1,21 @@
-/* custom css goes here */
+/* custom css */
+/* Kazi Ayesha Akhter
+      301264645
+      29/09/2023 */
 
 .intro {
     margin-bottom: 50px;
     margin-top: 60px;
     font-size: large;
-    margin-right: 300px;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .mission {
     font-size: large;
-    margin-top: 120px;
-    margin-left: 300px;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .container {
@@ -19,16 +24,24 @@
 
 .about {
     margin-right: 130px;
-    margin-top: 80px;
+    margin-top: 40px;
     font-size: large;
     margin-bottom: 100px;
 }
 
 .image {
-    margin-top: 80px ;
+    margin-top: 40px ;
 }
 
 .contact {
     margin-top: 200px;
     margin-left: 200px;
+}
+
+.mission {
+    text-align: center;
+}
+
+.outcome {
+    text-align: justify;
 }
