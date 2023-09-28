@@ -1,0 +1,63 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to my <%= title %> page</h1>      
+    </div>
+
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-lg-6">
+        <div class="contact-form">
+          <form onsubmit="submitForm(event)">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="phone">Phone</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Phone" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" onclick="submitForm()" class="btn btn-dark">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="col-lg-6">
+        <div class="contact-info">
+          <div class="contact">
+          <p>Email: <a href="mailto:you@example.com">k.ayesha.akhter@gmail.com</a></p>
+          <p>Phone: <a href="tel:(123) 456-7890">(123) 456-7890</a></p>
+          <p>GitHub: <a href="https://github.com/kaziakhter" target="_blank">kaziakhter</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/ayesha-akhter-32b6b1293/" target="_blank">kaziakhter</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
