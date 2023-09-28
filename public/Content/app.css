@@ -16,3 +16,19 @@
 .container {
     margin-top: 50px;
 }
+
+.about {
+    margin-right: 130px;
+    margin-top: 80px;
+    font-size: large;
+    margin-bottom: 100px;
+}
+
+.image {
+    margin-top: 80px ;
+}
+
+.contact {
+    margin-top: 200px;
+    margin-left: 200px;
+}
