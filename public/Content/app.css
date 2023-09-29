@@ -3,45 +3,50 @@
       301264645
       29/09/2023 */
 
+/* main page introduction*/
 .intro {
     margin-bottom: 50px;
-    margin-top: 60px;
+    margin-top: 30px;
     font-size: large;
     margin-right: 80px;
     margin-left: 80px;
 }
 
+/* main page mission*/
 .mission {
     font-size: large;
     margin-top: 80px;
     margin-left: 150px;
     margin-right: 150px;
+    text-align: center;
 }
 
 .container {
     margin-top: 50px;
 }
 
+/* About Me page */
 .about {
-    margin-right: 130px;
-    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 50px;
+    margin-top: 30px;
     font-size: large;
     margin-bottom: 100px;
+    text-align: justify;
 }
 
+/* image from about me page */
 .image {
     margin-top: 40px ;
 }
 
+/*Contact me page */
 .contact {
     margin-top: 200px;
     margin-left: 200px;
 }
 
-.mission {
-    text-align: center;
-}
-
+/* Projects page */ 
 .outcome {
     text-align: justify;
 }
